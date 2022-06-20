@@ -19,7 +19,8 @@ resources:
 trigger:
 - main
 
-pool: Azure Pipelines
+pool:
+  vmImage: 'ubuntu-latest'
 
 stages:
 - stage: build
