@@ -19,6 +19,8 @@ resources:
 trigger:
 - main
 
+pool: default
+
 stages:
 - stage: build
   displayName: Build MTA for SAP Cloud Platform
