@@ -19,7 +19,7 @@ resources:
 trigger:
 - main
 
-pool: Default
+pool: ConocoPhillips
 
 stages:
 - stage: build
