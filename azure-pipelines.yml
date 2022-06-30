@@ -19,7 +19,7 @@ resources:
 trigger:
 - main
 
-pool: ConocoPhillips
+pool: 'ubuntu-latest'
 
 stages:
 - stage: build
