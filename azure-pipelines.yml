@@ -19,7 +19,8 @@ resources:
 trigger:
 - main
 
-pool: 'ubuntu-latest'
+pool:
+  vmImage: 'ubuntu-latest'
 
 stages:
 - stage: build
